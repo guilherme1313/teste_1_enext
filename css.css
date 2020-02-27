@@ -1,3 +1,9 @@
+*{
+	margin:0px;
+	padding:0px;
+	box-sizing:border-box;
+
+}
 body{
     margin: 0px;
     padding: 0px;
@@ -5,16 +11,29 @@ body{
     height: 100%;
     text-align: center;
   }
+
+.logo-merlins-potions img{
+	width:280px;
+	height:60px;
+	left:20px;
+}
+.logo-merlins-potions{
+    width: 30%;
+    padding-top: 3%;
+    display: inline-block;
+}
+.pesquisa{
+	width:33%;
+	display:inline-block;
+}
+
 .navegation-bar-primary{
     background-color: #ffffff;
-    margin-left: -28%;
-    margin-top: 20px;
-    margin-bottom: 20px;
 }
 .navegation-bar-secundary {
     overflow: hidden;
     padding-left:5%;
-    background-color: rgb(103, 25, 105);
+    background-color: #523468;
   }
   
 .navegation-bar-secundary a {
