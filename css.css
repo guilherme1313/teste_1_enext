@@ -24,18 +24,17 @@ display: inline-block;
 padding-left: 80px;
 
 }
-
 .procurar input[type=text] {
-   float: right;
-   padding: 14px 0px;
-   border: 1px solid;
-   border-radius: 10px;
-   font-size: 25px;
-   background-image: url(./assets/images/lupa.png);
-   background-position: 10px;
-   background-size: 35px;
-   background-repeat: no-repeat;
-   padding-left: 65px;
+    float: right;
+    padding: 6px 15px;
+    border: 1px solid;
+    border-radius: 5px;
+    font-size: 20px;
+    background-image: url(./assets/images/lupa.png);
+    background-position: 11px;
+    background-size: 20px;
+    background-repeat: no-repeat;
+    padding-left: 35px;
 }
 .carrinho-compras{
 display: inline-block;
@@ -170,7 +169,6 @@ b {
     border-radius: 4px;
   }
  .topnav-right a {
-    /* background-color: rgb(70, 19, 71); */
     margin-top: -7px;
     border-radius: 4px;
     padding: 22px;
@@ -188,14 +186,36 @@ b {
 }
 
 .text-potions{
+	font-family: 'Droid Serif', Times New Roman;
 	width:100%;
 	display:inline-block;
 	padding-left:50px;
 	padding-top:20px;
 }
 
+.potions-images{
+width: 70%;
+height: 33%;
+display: inline-block;
+padding: 50px 0px 0px 0px
+}
+.texto-description-products{
+width: 50%;
+text-align: center;
+display: inline-block;
+}
+.products-potions{
+font-family: 'Droid Serif', Times New Roman;
+width: 32%;
+height: 33%;
+float: left;
+position: relative;
+text-align: center;
+margin: 5px;
+}
+
 @media screen and (max-width: 600px) {
-    .navegation-bar-primary a, .search input[type=text] {
+    .navegation-bar-secundary, .pesquisa input[type=text] {
       
         margin: left;
         margin-right: 16px;
