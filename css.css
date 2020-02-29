@@ -220,15 +220,16 @@ footer{
 	height:10%;
     display:inline-block;
 }
-
 #novidades {	
     float:right;
     font-size: 1em;
     border-radius: 2px;
     background-color: white;
     padding: 30px 15px;
-    margin-top: 30px;
+    margin-top: 25px;
     width: 400px;
+    margin-right:6%;
+    display:inline-block;
 }
 #area-email{
     padding: 10px 0 10px 5px;
@@ -244,12 +245,41 @@ footer{
     border-radius: 5px;
     cursor: pointer;
 }
+#social-network{
+	    display:inline-block;
+}
+.section-one-footer{
+	margin-left:10%;
+}
+.section-two-footer{
+	display: -webkit-inline-box;
+    margin-top: 2%;
+    width:15%;
+    margin-left:10%;
+}
+.section-two-footer a{
+	text-decoration:none;
+	text-align:left;
+	color:red;
+	padding-left:2%;
 
+}
 #col {
     font-family: "Droid Sans", sans-serif;
     font-size: 1.4em;
     color: #eb3606;
     font-weight: bold;
+}
+.section-three-footer{
+	margin-left:9%;
+}
+.section-four-footer {
+    font-family: "Droid Sans", sans-serif;
+    font-size: 0.9em;
+    color: gray;
+    margin-left:10%;
+    font-weight: bold;
+    height: auto;
 }
 
 @media screen and (max-width: 600px) {
